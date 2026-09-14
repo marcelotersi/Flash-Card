@@ -41,7 +41,7 @@ main{
 
 h1{
     color: #fff;
-    font-size; 24px
+    font-size: 24px
 }
 
 footer{
@@ -67,4 +67,11 @@ footer{
     backface-visibility: hidden;
 }
 
+.cartao-verso{
+    transform: rotateY(180deg);
+}
 
+section{
+    display: flex;
+    gap: 16px;
+}
